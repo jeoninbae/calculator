@@ -106,6 +106,8 @@ typedef enum opr Operator;
     currentOpr = none;
     currentValue = 0;
     
+    self.myLabel.text = @"0";
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
